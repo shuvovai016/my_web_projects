@@ -1,131 +1,210 @@
-<!Doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
 
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
 
-    <meta charset="Utf-8">
-    <meta name="description" content="Lering HTML is fun">
-    <meta name="keywords" content="HTML, css">
-    <meta name="autor" content="ars noyon">
-    <meta name="viewport" content="width=device-width,inital-scale=1.0">
+<body>
 
-    <link rel="icon" href="image/logo.png">
-   <title>Html is fun</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-   <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="style.css">
-  </head>
+    <header class="navbar">
+        <div class="logo">
+            <img src="cope.jpg" alt="logo">
+            <i class="fa-solid fa-cube"></i> Nexus Tech
+        </div>
+        <nav class="nav-link">
+            <a href="#">Home</a>
+            <a href="#">Service</a>
+            <a href="#">contact Us</a>
+            <a href="#">Features</a>
+        </nav>
 
-  
-  
-  <body>
-    <header class="old-design">
-      <h1>procoder bd</h1>
     </header>
-  <nav class="old-nav">
-    <ul class="old-ul">
-      <li><a href="">home</a></li>
-      <li><a href="">About</a></li>
-      <li><a href="">Service</a></li>
-      <li><a href="">contact</a></li>
-    </ul>
-  </nav>
-  <section id="hero" class="old-section">
-    <h2>welcome to by site</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-    <a href="">loren more</a>
-  </section>
-  <section class="old-section">
-    <div class="old-div">
-      <h2>this is title</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit impedit cum eos eveniet deleniti perferendis, quae velit asperiores illum necessitatibus.</p>
-    </div>
-    <aside class="old-aside">
-      <h2>latest post</h2>
-      <ul class="old-ul">
-        <li><a href="">Latest post</a></li>
-        <li><a href="">Lastest post</a></li>
-        <li><a href="">Latest post</a></li>
-        <li><a href="">Lastest post</a></li>
-      </ul>
-    </aside> 
-  </section>
-  <footer class="old-footer">
-    <p>all rights reserved</p>
-  </footer>
-
-
-
-
-
-
-
-
-  <!-- <header class="header-new"></header>
-  <h1>ARS Store</h1>
-
-  <nav class="new-nav">
-
-    <ul class="new-ul">
-        <li><a href="">Home</a></li>
-        <li><a href="">About</a></li>
-        <li><a href="">Service</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">Page</a></li>
-        <li><a href="">Web</a></li>
-        <li><a href="">Contan</a></li>
-    </ul>
-    <section class="new-section">
-      <h1>Welcome to by site</h1>
-      <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, necessitatibus?</P>
-      <a href="">loren more</a>
+    <section id="home" class="hero">
+        <div class="hero-section">
+            <h1>This is my first website</h1>
+            <p>Hello my web page is more inpormation of gather then over unacepat to in our picture so my site a litace
+            </p>
+            <div class="hero-btn">
+                <a href="#contact" class="btn-primary">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#Service" class="btn-secondary">Our Service</a>
+            </div>
+        </div>
     </section>
-    <section class="new-section">
-      <div class="new-div">
-        <h2>This is a title</h2>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, dignissimos excepturi. Dicta quod aspernatur harum?</p>
+    <section id="feature" class="feature">
+        <div class="section-title">
+            <h2>Why choose you</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quasi reprehenderit</p>
+        </div>
+        <div class="feature-grid">
+            <div class="feature-crad">
+                <i class="fa-solid fa-bolt"></i>
+                <h3>Lightning Fast</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, non.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h3>Scoure & Reliable</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, labore.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-solid fa-headset"></i>
+                <h3>24/7 Support</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, labore.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="section-title">
+            <h2>Get In Tech</h2>
+            <p>together of mierteo adipisicing elit. Alias, illo?</p>
+        </div>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="#">Your Name</label>
+                <input type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="#">Your Email</label>
+                <input type="email" placeholder="Enter your email address" required>
+            </div>
+            <div class="form-group">
+                <label for="#">Phone Number</label>
+                <input type="number" placeholder="Enter your phone number" required>
+            </div>
+            <div class="contact-group">
+                <label for="#">Your Message (optional)</label>
+                <textarea rows="5" placeholder="enter your message" required></textarea>
+            </div>
+            <button type="submit" class="btn-send">Send Message</button>
+        </form>
+
+
+    </section>
+    <footer>
+        <P>&scap; 2026 NexusTech. all rights reserved</P>
+    </footer>
+
+
+
+
+
+    <!-- <header class="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-cube"></i> NexusTech
+        </div>
+        <nav class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#services">Services</a>
+            <a href="#contact" class="nav-btn">Contact Us</a>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Build Your Digital Future With Us</h1>
+            <p>We help businesses scale, innovate, and transform their digital presence with cutting-edge web solutions and modern design.</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-primary">Get Started <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#services" class="btn-secondary">Our Services</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="section-title">
+            <h2>Why Choose Us</h2>
+            <p>We deliver excellence through innovation and dedication</p>
+        </div>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <i class="fa-solid fa-bolt"></i>
+                <h3>Lightning Fast</h3>
+                <p>Optimized performance ensuring your users get the best experience without delays.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h3>Secure & Reliable</h3>
+                <p>Top-tier security protocols to keep your data safe and infrastructure protected.</p>
+            </div>
+            <div class="feature-card">
+                <i class="fa-solid fa-headset"></i>
+                <h3>24/7 Support</h3>
+                <p>Our dedicated expert team is always ready to assist you anytime, anywhere.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="section-title">
+            <h2>Get In Touch</h2>
+            <p>Let's discuss how we can work together</p>
+        </div>
+        <form class="contact-form">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary" style="width: 100%;">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 NexusTech. All rights reserved.</p>
+    </footer> -->
+
+
+
+
+
+
+
+
+
+    <!-- <div class="auth-container">
+      <div class="glow-circle"></div>
+      <div class="auth-box">
+        <div class="header-section">
+          <h1>welcome<br>back</h1>
+          <p>sign in to continue</p>
+        </div>
+        <form>
+          <div class="input-group">
+            <i class="fa-regular fa-envelope"></i>
+            <input type="email" placeholder="Email adddress" required>
+          </div>
+          <div class="input-group">
+            <i class="fa-regular fa-lock"></i>
+            <input type="password" placeholder="password" required>
+          </div>
+          <div class="forgot-password">
+            <a href="#">forgort password?</a>
+          </div>
+          <button type="submit" class="submit-btn">Sign in</button>
+        </form>
+        <div class="auth-footer">
+          <p>Don't have an account?<a href="#">Sign up</a></p>
+        </div>
       </div>
-      <aside class="new-aside">
-        <h1>Lastest Post</h1>
-        <ul>
-          <li><a href="">lastest post</a>
-          <li><a href="">lastest post</a>
-          <li><a href="">lastest post</a>
-          <li><a href="">lastest post</a>
-          <li><a href="">lastest post</a>
-          <li><a href="">lastest post</a>
-          <li><a href="">lastest post</a>
-          <li><a href="">lastest post</a>
-          <li><a href="">lastest post</a>
-          <li><a href="">lastest post</a>
-          <li><a href="">lastest post</a>
-          <li><a href="">lastest post</a>
-          <li><a href="">lastest post</a>
-          <li><a href="">lastest post</a>
-          <li><a href="">lastest post</a>
-        </ul>
 
-      </aside>
-    </section>
-
-
-
-    
-  </nav> -->
-
- 
+    </div> -->
 
 
 
 
 
-
-
-      
-
-  </body>
-
+</body>
 
 </html>
