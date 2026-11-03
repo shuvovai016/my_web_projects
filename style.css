@@ -8,7 +8,7 @@ h2{
    font-family: "Poppins", sans-serif;
    font-weight: 500;
 }
-
+ 
 h4{
   font-family: "Bungee Spice", sans-serif;
   font-size: 50px;
@@ -1102,14 +1102,14 @@ body {
 
 .feature-grid {
   display: grid;
-  width: 100%;
-  height: 100px;
+  width: 65%;
+  min-height: 200px;
   padding: 20px 20px;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 50px;
 }
 
-.feature-grid .card{
+.feature-grid .card {
   background: #f8fafc;
   padding: 30px;
   text-align: center;
@@ -1117,7 +1117,32 @@ body {
   transition: 0.03s;
   border: 1px solid #e2e8f0;
 }
-.feature-grid .card-1{
+
+.feature-grid .card h3 {
+  font-size: 32px;
+  text-decoration: underline;
+  font-style: italic;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #192a56;
+}
+
+.feature-grid .card p{
+  color: #aaa5a5;
+  font-size: 22px;
+}
+
+
+.model-picture {
+  background: url(bright.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 200px;
+}
+
+
+.feature-grid .card-1 {
   background: white;
   padding: 30px;
   text-align: center;
@@ -1126,16 +1151,15 @@ body {
   color: white;
   overflow: hidden;
   opacity: 0.5;
-  border: 1px solid black;
-  
+  border: 1px solid rgb(219, 157, 157);
 }
 
-.feature-grid .card-1 h3:hover{
+.feature-grid .card-1 h3:hover {
   color: #4f46e5;
   font-size: 35px;
 }
 
-.feature-grid .card-1 p:hover{
+.feature-grid .card-1 p:hover {
   color: black;
 }
 
@@ -1145,7 +1169,7 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
 }
 
-.feature-grid .card-2{
+.feature-grid .card-2 {
   background: #f8fafc;
   padding: 30px;
   text-align: center;
@@ -1154,7 +1178,7 @@ body {
   border: 2px solid #e2e8f0;
 }
 
-.feature-grid .card-2:hover{
+.feature-grid .card-2:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
 }
@@ -1185,7 +1209,8 @@ body {
   border-radius: 40px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0, 0.05); */
 }
-.contact-form label{
+
+.contact-form label {
   font-size: 14px;
   padding: 8px;
   color: #fff;
@@ -1193,8 +1218,6 @@ body {
 
 .contact-group {
   margin: 0;
-
-
 }
 
 .contact-group textarea {
@@ -1206,11 +1229,13 @@ body {
   resize: none;
   outline: none;
 }
-.contact-group label{
+
+.contact-group label {
   font-size: 14px;
   padding: 8px;
   color: #fff;
 }
+
 /* .contact-group textarea:hover {
   background:#8a04e9;
 } */
@@ -1260,7 +1285,7 @@ input[type="number"]::-webkit-inner-spin-button {
   margin: 0;
 }
 
- 
+
 
 .btn-send {
   display: flex;
@@ -1278,7 +1303,7 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .btn-send:hover {
   background: rgb(224, 218, 192);
-  color:black;
+  color: black;
   border: 1px solid red;
 
 }
